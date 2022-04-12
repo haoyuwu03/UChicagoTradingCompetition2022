@@ -3,7 +3,7 @@
 
 Case Objectives: 2022 UChicago Trading Competition Participant Case Packet.pdf
 
-Case 1 and Case 2 Trading Bots:
+Case 1 (Market Making) and Case 2 (Options Trading) Trading Bots:
   - Navigate inside utc_xchange_v2.0 folder
   - Follow the README.md inside that folder to run case1bot.py and case2bot.py on the exchange
 
