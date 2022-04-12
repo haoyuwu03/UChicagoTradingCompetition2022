@@ -1,5 +1,5 @@
 # UChicagoTradingCompetition2022
-3rd place Trading Bots and Portfolio Allocation method
+3rd place Team's Winning Trading Bots and Portfolio Allocation method for the 2022 UChicago Trading Competition
 
 Case Objectives: 2022 UChicago Trading Competition Participant Case Packet.pdf
 
