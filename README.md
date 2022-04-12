@@ -9,4 +9,4 @@ Case 1 (Market Making) and Case 2 (Options Trading) Trading Bots:
 
 Case 3 Portfolio Allocation Method:
   - Navigate inside Case3 folder
-  - allocate.py takes a single row of price.csv (prices for each of the 9 assetts at a single point in time), analyst1prediction.csv (predicted price for       each of the 9 assetts for the next point in time), analyst2prediction.csv, and analyst3prediction.csv as input, and returns optimal portfolio weights       for each of the 9 assetts for the next point in time
+  - allocate.py takes a single row of actual_prices.csv (prices for each of the 9 assetts at a single point in time), analyst1prediction.csv (predicted price for       each of the 9 assetts for the next point in time), analyst2prediction.csv, and analyst3prediction.csv as input, and returns optimal portfolio weights       for each of the 9 assetts for the next point in time
