@@ -286,9 +286,11 @@ class Case2ExampleBot(UTCBot):
             while not res_buy[0]:
                 self.edge_buy += self.increment
                 iv_e_buy = self.iv_call(self.underlying_price, strike, self.time_to_expiry, 0, self.edge_buy)
+                res_buy = self.check_valid_trade(1,flag,self.underlying_price, strike, self.time_to_expiry, theo-iv_e_buy,self.buy_option_q)
             while not res_sell[0]:
                 self.edge_sell += self.increment
                 iv_e_sell = self.iv_call(self.underlying_price, strike, self.time_to_expiry, 0, self.edge_sell)
+                res_sell = self.check_valid_trade(-1,flag,self.underlying_price, strike, self.time_to_expiry, theo+iv_e_sell,self.sell_option_q)
             
             limits_results_buy = self.check_cum_limits(res_buy[1],res_buy[2],res_buy[3],res_buy[4])
             limits_results_sell = self.check_cum_limits(res_sell[1],res_sell[2],res_sell[3],res_sell[4])
